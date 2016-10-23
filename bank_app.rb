@@ -1,6 +1,6 @@
 class Bank
   def say_hello
-    puts "Give me your money!!!"
+    puts "I would like to ask you to give me your money!!!"
   end
 end
 
