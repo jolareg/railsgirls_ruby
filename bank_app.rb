@@ -21,7 +21,7 @@ class BankTerminal < Bank
 
   def say_hello
     super
-    puts "Now!!"
+    puts "Please :)"
   end
 
   def runek
@@ -54,7 +54,7 @@ class BankTerminal < Bank
    if cash <= @balance
      @balance = @balance - cash
    else
-     puts "Nie masz takich środków na koncie. Nie możesz wypłacić tej kwoty. Brakuje Ci #{cash - @balance} "
+     puts "Nie masz takich środków na koncie. Nie możesz wypłacić tej kwoty. Brakuje Ci #{cash - @balance}."
    end
   end
 
