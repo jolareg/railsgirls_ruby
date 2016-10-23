@@ -14,7 +14,7 @@ class BankTerminal < Bank
     puts "[1] - uzupełnij status konta"
     puts "[2] - wyświetl stan konta"
     puts "[3] - wybierz środki"
-    puts "[4] - dodaj środki"
+    puts "[4] - dodaj nowe środki"
     puts "[5] - exit"
     @choice = gets.chomp
   end
